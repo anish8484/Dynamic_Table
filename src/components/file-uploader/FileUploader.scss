@@ -1,0 +1,32 @@
+.file-upload-wrapper {
+    display: flex;
+    flex-direction: column;
+    input {
+        padding: 60px 130px;
+        outline: 3px dashed #a3a9a9;
+        outline-offset: -8px;
+        border: 1px solid #c5c8c8;
+    }
+    .btn-upload {
+        padding: 10px;
+        background-color: #6f6e79;;
+        border-radius: 6px;
+        width: 100%;
+        position: relative;
+        border-style: none;
+        color: #ffff;
+        cursor: pointer;
+    }
+    .button-wrapper {
+        margin: 10px 0 20px 0; 
+    }
+    button:disabled {
+        background-color: #dddce2;
+    }
+    .item {
+        align-self: center;
+    }
+    .input-file-wrapper {
+        margin-top: 20px;
+    }
+}
